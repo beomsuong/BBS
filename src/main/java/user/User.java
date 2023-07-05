@@ -5,7 +5,7 @@ public class User {
 	private String userPassword;
 	private String userName;
 	private String userGender;
-	private String userEamil;
+	private String userEmail;
 	public String getUserID() {
 		return userID;
 	}
@@ -30,11 +30,11 @@ public class User {
 	public void setUserGender(String userGender) {
 		this.userGender = userGender;
 	}
-	public String getUserEamil() {
-		return userEamil;
+	public String getUserEmail() {
+		return userEmail;
 	}
-	public void setUserEamil(String userEamil) {
-		this.userEamil = userEamil;
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
 	}
 	
 }

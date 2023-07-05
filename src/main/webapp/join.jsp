@@ -26,7 +26,6 @@ aria-expanded="false">
 <ul class="nav navbar-nav">
 	<li><a href="main.jsp">메인</a></li>
 	<li><a href="bbs.jsp">게시판</a></li>
-	<li><a href="main.jsp">메인</a></li>
 </ul>
 <ul class="nav navbar-nav navbar-right">
 	<li class ="dropdown">
@@ -34,8 +33,8 @@ aria-expanded="false">
 		data-toggle ="dropdown" role="button" aria-haspopup="true"
 		aria-expaned="false">접속하기<span class="caret"></span></a>
 		<ul class="dropdown-menu">
-		<li class="active"><a href="login.jsp">로그인</a></li>
-				<li ><a href="join.jsp">회원가입</a></li>
+		<li><a href="login.jsp">로그인</a></li>
+				<li class="active"><a href="join.jsp">회원가입</a></li>
 		</ul>
 	</li>
 </ul>
